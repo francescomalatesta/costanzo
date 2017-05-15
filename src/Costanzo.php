@@ -6,6 +6,7 @@ class Costanzo
 {
     public function encode($frase)
     {
+        $frase = str_replace('rt', 'tt', $frase);
         $frase = str_replace('sp', 'pp', $frase);
 
         return str_replace(

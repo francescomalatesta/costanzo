@@ -27,4 +27,14 @@ class CostanzoTest extends \PHPUnit_Framework_TestCase
           $costanzo->encode('ecco, aspetta')
         );
     }
+
+    public function testRtCase()
+    {
+        $costanzo = new Costanzo;
+
+        $this->assertEquals(
+          'chiudi la potta',
+          $costanzo->encode('chiudi la porta')
+        );
+    }
 }
