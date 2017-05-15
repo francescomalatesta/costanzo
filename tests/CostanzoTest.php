@@ -52,4 +52,14 @@ class CostanzoTest extends \PHPUnit_Framework_TestCase
           $costanzo->encode('buona pasqua!')
         );
     }
+
+    public function testSchCase()
+    {
+        $costanzo = new Costanzo;
+
+        $this->assertEquals(
+          'faccio cchifo',
+          $costanzo->encode('faccio schifo')
+        );
+    }
 }
