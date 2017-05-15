@@ -1,5 +1,7 @@
 # Costanzo
 
+![](http://m.memegen.com/qeq7lu.jpg)
+
 > "tutte ttrontate"
 
 Inspired by the awesome job of [bllmo](https://www.npmjs.com/package/maurizio-costanzo).
@@ -24,4 +26,4 @@ echo $costanzo->encode('tutte stronzate'); // tutte ttrontate
 
 ## Credits
 
-- [bllmo original package][https://www.npmjs.com/package/maurizio-costanzo]
+- [bllmo original package](https://www.npmjs.com/package/maurizio-costanzo)
