@@ -62,4 +62,14 @@ class CostanzoTest extends \PHPUnit_Framework_TestCase
           $costanzo->encode('faccio schifo')
         );
     }
+
+    public function testLowerCase()
+    {
+        $costanzo = new Costanzo;
+
+        $this->assertEquals(
+          'ecco, appetta',
+          $costanzo->encode('ECCO, ASPETTA')
+        );
+    }
 }
