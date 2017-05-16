@@ -14,7 +14,7 @@ class Costanzo
         $frase = str_replace('sp', 'pp', $frase);
         $frase = str_replace('sch', 'cch', $frase);
 
-        $frase = preg_replace('/(?!.*c)(s)/', 't', $frase);
+        $frase = preg_replace('/(?!.c)(s)/', 't', $frase);
         $frase = str_replace('z', 't', $frase);
 
         return $frase;

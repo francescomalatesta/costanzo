@@ -83,6 +83,16 @@ class CostanzoTest extends \PHPUnit_Framework_TestCase
         );
     }
 
+    public function testScAsEntireSentence()
+    {
+        $costanzo = new Costanzo;
+
+        $this->assertEquals(
+          'un taluto ai miei amici',
+          $costanzo->encode('un saluto ai miei amici')
+        );
+    }
+
     public function testLowerCase()
     {
         $costanzo = new Costanzo;
