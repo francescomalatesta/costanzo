@@ -4,7 +4,7 @@ namespace FrancescoMalatesta\Costanzo\Test;
 
 use FrancescoMalatesta\Costanzo\Costanzo;
 
-class CostanzoTest extends \PHPUnit_Framework_TestCase
+class CostanzoTest extends \PHPUnit\Framework\TestCase
 {
     private $costanzo;
 
